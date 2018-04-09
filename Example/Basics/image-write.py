@@ -5,7 +5,7 @@ img = cv2.imread('manivannan.jpg',-1)
 
 # Display the Read Image
 
-cv2.imshow("Image",img)
+cv2.imwrite("manivannan.png",img)
 
 cv2.waitKey(0)
 
