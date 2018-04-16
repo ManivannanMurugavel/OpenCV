@@ -69,3 +69,28 @@ elif k == ord('s'): # wait for 's' key to save and exit
     cv2.imwrite('messigray.png',img)
     cv2.destroyAllWindows()
  ```
+
+
+
+# Drawing Functions
+
+### Line
+
+```
+#cv2.circle('image','(From Point)',(To Point),(rgb color),Thickness_line)
+cv2.line(line,(100,120),(400,120),(255,0,0),2)
+```
+
+### Rectangle
+
+```
+#cv2.circle('image','(From Point)',(To Point),(rgb color),Thickness_line)
+cv2.rectangle(rect,(10,10),(430,128),(0,255,0),2)
+```
+
+### Circle
+
+```
+#cv2.circle('image','(center_point)',radius,(rgb color),fill_width)
+cv2.circle(cir,(250,250), 50, (0,0,255), -1)
+```
